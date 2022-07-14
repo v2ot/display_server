@@ -1,1 +1,3 @@
-# display_server
+# Display Server
+
+Xvfb + vnc + novnc
