@@ -14,4 +14,6 @@ ADD display_server.conf /etc/supervisor/conf.d/display_server.conf
 
 EXPOSE 2333
 
+ENV DISPLAY_RESOLUTION 1280x800x24+32
+
 CMD ["/usr/bin/python", "/usr/bin/supervisord", "-c", "/etc/supervisor/supervisord.conf", "-n"]
