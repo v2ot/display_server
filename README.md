@@ -1,3 +1,3 @@
 # Display Server
 
-Xvfb + vnc + novnc
+Xvfb + fluxbox + vnc + novnc
